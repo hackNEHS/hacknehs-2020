@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - hackNEHS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
@@ -255,13 +256,15 @@
                     <!-- Content -->
                     <h5 class="text-uppercase font-weight-bold mt-4 mb-4">Contact Us</h5>
                     <p>We are running the most exciting hackathon in the New England area for high school students. It will be a day of developing cool ideas, meeting other high school hackers, and learning the ins and outs of development. Feel free to contact us through email or mail.</p>
-                    <p>
+                    <ul class="list-unstyled">
+                        <li>
                         <img src="assets/img/email.png" class="img-fluid mr-2">
                         <a class="" href="mailto:info@hacknehs.org"></i> info@hacknehs.org</a>
                         <img src="assets/img/pin.png" class="img-fluid ml-3">
                         <a href="https://www.google.com/maps/place/Phillips+Academy+%E2%80%94+Andover/@42.6471694,-71.1344683,17z/data=!3m1!4b1!4m5!3m4!1s0x89e308f2618c341b:0x44980875f0ffb18f!8m2!3d42.6471655!4d-71.1322796"
                         >180 Main St, Andover, MA 01810</a>
-                    </p>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
@@ -301,5 +304,9 @@
     .mango {
         background-color: #ffad33;
     }
-
+    
+    li:hover img {
+        animation: heartBeat;
+        animation-duration: 2.5s;
+    }
 </style>
